@@ -5,24 +5,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My name</title>
+  <title>Akan Naming Application</title>
   <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="index.css" type="text/css">
   <script src="index.js"></script>
 </head>
 
 <body>
+  <nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contacts</a></li>
+  </ul>
+  </nav>
+  <div id="home">
   <div class="container-fluid">
     <main class="jumbotron">
       <h1>AKAN Naming Application</h1>
-      <!-- <img src="https://bit.ly/38qNbGT" height=350px width=100%> -->
-      <p>Akan names are derived from <span class="user">Ghanian culture</span>.<br>In Ghana children are given their
-        first
-        name as a 'day name' <br>,which corresponds to the day in the week they were born.
-      </p>
-      <p>Akan Naming Website <span class="user">takes a user's birthday and calculates the day of the week</span>,<br>
-        they were born and then depending on their gender outputs their Akan Name.</p>
+      
+      <img src="https://bit.ly/38qNbGT" height=400px width=100%>
+    
     </main>
+    <p>Akan web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
+    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+    <h1>Know your Akan Name</h1>
+    <h3>Enter your birthday date</h3>
     <div class="form row">
       <div class="col-4">
       </div>
@@ -49,9 +57,54 @@
         </div>
 
       </form>
-
     </div>
+    </div>
+
+    <div id="about">
+      <div class="container-fluid">
+       
+ <h1>A little history on Akan Name</h1>
+ <p>The naming system of the Akan people is as distinct as that which elders in Togo (the Ewe people), the Ga people, Benin (the Fon people), and the African diaspora pass on to toddlers. Other forms of traditional naming include middle names, which can refer to order of birth as part of the caste of siblings, twin status, or could be an inherited maiden name.
+
+  Aside the fact that day names are a simple means for commonality, they are easy conversation starters and icebreakers.</p>
+  <p>In West Africa, newborns are given special names depending on the day they are born. Diverse ethnicities have variants and meanings as a symbol of cultural integrity and ancestral affiliation. Here’s your need-to-know guide.</p>
+        </div>
+        </div>
+
+        <div id="contact">
+          <div class="container-fluid">
+           
+            <form>
+                <div>
+                  <label>Your Name</label><br>
+                  <input type="text" id="name" placeholder="Your Name"  step="1" required><br>
+                </div>
+                <div>
+                  <label>Your Email Address</label><br>
+                  <input type="text" id="month" placeholder="Your Email Address" required><br>
+                </div>
+                <div>
+                  <label>Subject</label><br>
+                  <input type="text" id="day" placeholder="Subject" required><br>
+                </div>
+                <div>
+                  <label>Message</label><br>
+                  <input type="text" id="day" placeholder="Message" required><br>
+                </div>
+                <div>
+                  <!-- <button class="btn" type="submit" id="send">Send a Message</button>> -->
+                  <input type="submit" onclick="giveAkanName()" value="Submit">
+                </div>
+              </div>
+      
+            </form>
+            
+            </div>
+            </div>
+
     <footer>
+      <h1>Akan Name Application</h1>
+      <p>&copy akan name application</p>
     </footer>
 </body>
 
