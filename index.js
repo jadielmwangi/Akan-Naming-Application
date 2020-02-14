@@ -12,16 +12,16 @@ function giveAkanName () {
     var validate = (year > 0 && (month >0 && month <=12) && (day > 0 && day <= 31));
     var validateGender = (gender !== "male" && gender !== "female");
     if (year <= 0 ) {
-        alert("Invalid year");
+        alert("The is invalid");
     }
     else if (month <= 0 || month > 12) {
-        alert("Month is between 1 and 12");
+        alert("Invalid month should be between 1 and 12");
     }
     else if (day <= 0 || day > 31){
-        alert("Date is between 1 and 31");
+        alert("Invalid date");
     }
     else if (validate == false) {
-        alert("Invalid Input!!");
+        alert("Invalid Input");
     }
     if(gender ==="male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = maleNames[dayBorn];
