@@ -1,3 +1,17 @@
 .user{
     color: blue;
 }
+body{
+    background-image: url("https://bit.ly/38qNbGT");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.take{
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: capitalize;
+}
