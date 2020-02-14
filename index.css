@@ -1,20 +1,42 @@
+nav{
+    text-align: right;
+    background-color: aliceblue;
+    font-weight: 800;                   
+    font-size: x-large;
+    font-style: normal;
+}
+nav li{
+display:inline-block;
+margin-left: 30px;
+padding-bottom: 30px;
+padding-top: 30px;
+padding-right: 40px;
+}
+nav a:hover{
+    color:red;
+}
 .user{
     color: blue;
 }
 body{
-    background-image: url("https://bit.ly/38qNbGT");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: large;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgray;
 
 }
 .take{
-    color: whitesmoke;
+    color: blue;
     font-size: 20px;
     text-transform: capitalize;
 }
-h1{
+h1,h3,p{
     text-align: center;
+}
+
+footer{
+    background-color: aliceblue;
 }
