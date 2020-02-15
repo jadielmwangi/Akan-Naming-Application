@@ -33,8 +33,43 @@ body{
     font-size: 20px;
     text-transform: capitalize;
 }
-h1,h2,h3,p{
+h1,h2,h3{
     text-align: center;
+    color: whitesmoke;
+}
+
+.names{
+    float: left;
+    width: 450px;
+}
+.fa{
+    padding: 20px;
+    font-size:30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+
+}
+
+.fa:hover{
+    opacity:0.7;
+}
+.fa-facebook{
+    background: #55ACEE;
+    color:red;
+    border-radius: 50px;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color:red;
+    border-radius: 50px;
+    
+}
+.fa-skype{
+    background: #55ACEE;
+    color:red;
+    border-radius: 50px;
 }
 
 footer{
