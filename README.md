@@ -1,13 +1,13 @@
 ## Project name
-Akan-Name Application
-This Repository contains code for Akan-Name application.
+Akan-Name Web Application
+This Repository contains code for Akan-Name Web application.
 ## Project Author
 Jadiel Mwangi
 ## Project Description 
-* Akan Naming Application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. It contains an about section which a brief history of Akan people , also contacts and a footer at the bottom.
+* Akan Naming Web Application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. It contains an about section which gives a brief history of Akan people, also it have contacts section and a footer at the bottom.
 
 ## Setup Instructions
-* git clone https: https://jadielmwangi.github.io/Akan-Naming-Application/on your terminal.
+* git clone https://github.com/jadielmwangi/Akan-Naming-Application  on your terminal.
 * Navigate to the portfolio folder through cd Desktop/Akan-Name/Akan Naming Application.
 * Open the folder in your favourite editor,for vscode,is code . and for atom, atom .
 * Open the index.html in your browser
