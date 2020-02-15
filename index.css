@@ -15,6 +15,7 @@ padding-right: 40px;
 nav a:hover{
     color:red;
 }
+
 .user{
     color: blue;
 }
@@ -41,6 +42,9 @@ h1,h2,h3{
 .names{
     float: left;
     width: 450px;
+}
+.contacts{
+    text-align: center;
 }
 .fa{
     padding: 20px;
