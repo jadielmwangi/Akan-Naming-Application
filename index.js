@@ -12,13 +12,13 @@ function giveAkanName () {
     var validate = (year > 0 && (month >0 && month <=12) && (day > 0 && day <= 31));
     var validateGender = (gender !== "male" && gender !== "female");
     if (year <= 0 ) {
-        alert("The is invalid");
+        alert("The year is invalid");
     }
     else if (month <= 0 || month > 12) {
-        alert("Invalid month should be between 1 and 12");
+        alert("The month is invalid since it's between 1 and 12");
     }
     else if (day <= 0 || day > 31){
-        alert("Invalid date");
+        alert("The date is invalid");
     }
     else if (validate == false) {
         alert("Invalid Input");
