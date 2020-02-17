@@ -8,7 +8,7 @@ Jadiel Mwangi
 
 ## Setup Instructions
 * git clone https://github.com/jadielmwangi/Akan-Naming-Application  on your terminal.
-* Navigate to the portfolio folder through cd Desktop/Akan-Name/Akan Naming Application.
+* Navigate to the portfolio folder through cd Documents/Akan-Name/Akan-Naming Application.
 * Open the folder in your favourite editor,for vscode,is code . and for atom, atom .
 * Open the index.html in your browser
 ## Technologies used

@@ -4,6 +4,9 @@ nav{
     font-weight: 800;                   
     font-size: x-large;
     font-style: normal;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
 }
 nav li{
 display:inline-block;
@@ -45,37 +48,8 @@ h1,h2,h3{
 }
 .contacts{
     text-align: center;
-}
-.fa{
-    padding: 20px;
-    font-size:30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 40px;
+ }
 
-}
-
-.fa:hover{
-    opacity:0.7;
-}
-.fa-facebook{
-    background: #55ACEE;
-    color:red;
-    border-radius: 50px;
-}
-.fa-twitter{
-    background: #55ACEE;
-    color:red;
-    border-radius: 50px;
-    
-}
-.fa-skype{
-    background: #55ACEE;
-    color:red;
-    border-radius: 50px;
-}
-
-footer{
+ footer{
     background-color: aliceblue;
 }
