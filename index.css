@@ -23,9 +23,6 @@ nav a:hover{
     color: blue;
 }
 body{
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
     font-size: large;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
