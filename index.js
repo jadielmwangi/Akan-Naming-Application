@@ -15,7 +15,7 @@ function giveName() {
         alert("The year is invalid");
     }
     else if (month <= 0 || month > 12) {
-        alert("The month is invalid since it's between 1 and 12");
+        alert("The month is invalid");
     }
     else if (day <= 0 || day > 31) {
         alert("The date is invalid");
@@ -25,11 +25,11 @@ function giveName() {
     }
     if (gender === "male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
         akanName = maleNames[bornDay];
-        alert("You were born on " + weekDays[bornDay] + " and your Akan name is " + akanName);
+        alert("Hello! you were born on " + weekDays[bornDay] + " and your Akan name is " + akanName);
     }
     else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
         akanName = femaleNames[bornDay];
-        alert("You were born on " + weekDays[bornDay] + " and your Akan name is " + akanName);
+        alert("Hello! you were born on " + weekDays[bornDay] + " and your Akan name is " + akanName);
     }
 }
 function getGender() {
