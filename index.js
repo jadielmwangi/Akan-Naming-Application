@@ -8,7 +8,6 @@ function giveName() {
     var gender = getGender();
     var date = new Date(year + "/" + month + "/" + day);
     var bornDay = date.getDay();
-    var akanName;
     var validate = (year > 0 && (month > 0 && month <= 12) && (day > 0 && day <= 31));
     var validateGender = (gender !== "male" && gender !== "female");
     if (year <= 0) {
@@ -23,6 +22,7 @@ function giveName() {
     else if (validate == false) {
         alert("Invalid Input");
     }
+    var akanName;
     if (gender === "male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
         akanName = maleNames[bornDay];
         alert("Hello! you were born on " + weekDays[bornDay] + " and your Akan name is " + akanName);
